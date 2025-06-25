@@ -170,6 +170,17 @@
 
                 <section id="erp">
                     <h2>O que é um Sistema ERP?</h2>
+                    <!--------------------------------------datahora-->
+                    <div id="dataHora"></div>
+
+                    <script>
+                    const agora = new Date();
+                    const opcoes = { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' };
+                    const formatado = agora.toLocaleString('pt-BR', opcoes);
+                    document.getElementById('dataHora').textContent = `Data e hora: ${formatado}`;
+                    </script>
+                     <!--------------------------------------datahora-->
+
                     <article>
                     <h3>Integração de processos para empresas modernas</h3>
                     <p>Um sistema ERP (Enterprise Resource Planning) é uma plataforma que centraliza e automatiza os processos internos de uma empresa — desde o financeiro até o estoque. Otimize sua gestão com soluções ERP personalizadas para o seu negócio.</p>
@@ -201,6 +212,61 @@
                      <!-----------------------PROPAGANDA-->
 
                 <section id="vps">
+                    <article>
+                    <h3>[17/06/2025] VPS com NVMe e tráfego ilimitado é tendência para 2025</h3>
+                    <p>Empresas estão migrando para servidores VPS com discos NVMe e infraestrutura redundante. Entenda os benefícios dessa tecnologia.</p>
+                    </article>
+
+                    <article>
+                    <h3>[16/06/2025] Inteligência Artificial ajuda na criação de receitas personalizadas</h3>
+                    <p>Ferramentas de IA estão sendo usadas para sugerir pratos baseados no que há na geladeira. Conheça os apps mais usados.</p>
+                    </article>
+
+                    <article>
+                    <h3>[15/06/2025] Novo padrão Wi-Fi 7 começa a chegar aos roteadores domésticos</h3>
+                    <p>Com velocidades ainda maiores e menor latência, o Wi-Fi 7 promete revolucionar conexões residenciais e comerciais.</p>
+                    </article>
+
+                    <article>
+                    <h3>[14/06/2025] Cresce a busca por cursos de culinária online no Brasil</h3>
+                    <p>Aulas ao vivo e gravadas de receitas doces e salgadas aumentaram 300% em plataformas de ensino digital.</p>
+                    </article>
+
+                    <article>
+                    <h3>[13/06/2025] Google prioriza vídeos curtos e receitas bem estruturadas nos resultados</h3>
+                    <p>Conteúdos com vídeos integrados e dados estruturados ganham mais destaque no Google Discover e nas pesquisas.</p>
+                    </article>
+
+                    <article>
+                    <h3>[12/06/2025] Chocolates com menos açúcar dominam o mercado gourmet</h3>
+                    <p>Fabricantes estão inovando com versões saudáveis e premium, mantendo o sabor e reduzindo calorias.</p>
+                    </article>
+
+                    <article>
+                    <h3>[11/06/2025] Receita de brownie bate recorde de buscas no Dia dos Namorados</h3>
+                    <p>A sobremesa foi a mais procurada no Google Brasil em 12 de junho, superando até fondue e petit gâteau.</p>
+                    </article>
+
+                    <article>
+                    <h3>[10/06/2025] Empresas apostam em eBooks de receitas como brinde digital</h3>
+                    <p>Marcas usam livros digitais para captar e-mails e engajar audiências com conteúdo útil e permanente.</p>
+                    </article>
+
+                    <article>
+                    <h3>[09/06/2025] Segurança em sites de receitas: HTTPS e CDN são essenciais</h3>
+                    <p>Proteger visitantes e melhorar a performance são ações básicas para blogs culinários profissionais.</p>
+                    </article>
+
+                    <article>
+                    <h3>[08/06/2025] IA na cozinha: robôs já preparam sobremesas com precisão</h3>
+                    <p>Dispositivos inteligentes começam a chegar ao consumidor com funções como bater claras, derreter chocolate e até decorar bolos.</p>
+                    </article>
+
+                    <article>
+                    <h3>[07/06/2025] Instagram lança ferramenta para receitas com vídeo passo a passo</h3>
+                    <p>Nova função permite marcar ingredientes, tempo e etapas diretamente no vídeo, tornando o conteúdo mais interativo.</p>
+                    </article>
+
                     <h2>VPS: Servidores Virtuais de Alta Performance</h2>
                     <article>
                     <h3>Escalabilidade e segurança na nuvem</h3>
@@ -226,6 +292,7 @@
                     <h3>[18/06/2025] VPS com NVMe e tráfego ilimitado é tendência para 2025</h3>
                     <p>Empresas estão migrando para servidores VPS com discos NVMe e infraestrutura redundante. Entenda os benefícios dessa tecnologia e como ela se aplica ao seu negócio.</p>
                     </article>
+                    
 
 
 
@@ -242,7 +309,7 @@
 
 
 
-                    <article>
+                <article>
                 <h3>[20/06/2025] Pure Storage lança Data Cloud com IA para Datacenters</h3>
                 <p>O novo Enterprise Data Cloud da Pure Storage utiliza inteligência artificial para otimizar armazenamento, automação e compliance nos datacenters modernos.</p>
                 </article>
@@ -417,7 +484,7 @@
 
 
   <footer>
-    <p>&copy; 2025 Sua Empresa. Todos os direitos reservados.</p>
+    <p>&copy;</p>
   </footer>
 
 </body>
